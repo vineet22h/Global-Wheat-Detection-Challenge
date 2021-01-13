@@ -1,0 +1,51 @@
+{% extends "template.html" %}
+{% block main %}
+{{ super() }}
+<link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}"/>
+{{ super() }}
+<script src="{{url_for('static', filename='main.js')}}"></script>
+
+<div class="table-responsive">
+<table>
+    <tr>
+        <!-- first column -->
+        <td>
+            <div class="first">
+                <label for="upload"><div class="norm btn pad">Select images</div></label> 
+                <input id="upload" type="file" multiple="multiple"/>
+                <button type="button" id="next" class="norm btn" disabled>Next image</button> 
+                <button type="button" id="previous" class="norm btn" disabled>Previous <br> image</button>
+                <a id ='link' href = "#" download><button type="button" id="save" class="norm btn" disabled>Save <br> Annotation</button></a>
+            </div>
+        </td>
+
+        <!-- second column -->
+        <td>   
+            <div class="second">
+                <img src="" id="original" class="img" alt="Please select images and click on start detection">
+            </div>
+        </td>
+
+        <!-- third column -->
+        <td>
+            <div class="third">
+                <div class='select-model'>
+                    <p>Select Model</p>
+                </div> 
+                <div class="radio-model">
+                    <input type="radio" name="model" onclick="assign_img()" id="none" checked> None </input><br>
+                    <input type="radio" name="model" onclick="assign_img()" id="yolo" > YOLO V3 </input><br>
+                </div>
+
+                <div class = "leaf-count">
+                    <span class = "count">Wheat Head:</span>
+                    <span class = "count" id= "count"> --- </span>
+                </div>
+               
+                <button type="button" id="detect">Start Detectection</input>
+            </div>
+        </td>
+    </tr>
+</table>
+</div>
+{% endblock main %}
