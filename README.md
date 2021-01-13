@@ -1,5 +1,5 @@
 # Global Wheat Detection Challenge
-The Challenge deals with detection of wheat head given the image. 
+The Challenge deals with detection of wheat head given the image. The challenge was live on kaggle with the link https://www.kaggle.com/c/global-wheat-detection
 
 # Data link:
 https://www.kaggle.com/c/global-wheat-detection/data
