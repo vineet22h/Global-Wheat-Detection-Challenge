@@ -1,8 +1,8 @@
 ## DATA
-TRAIN_IMG_PATH          = 'D:\\Machine Learning\\Global Wheat Detection Challenge\\Data\\train_images\\'
-TEST_IMG_PATH           = 'D:\\Machine Learning\\Global Wheat Detection Challenge\\Data\\test_images\\'
-TRAIN_ANNOT_PATH        = 'D:/Machine Learning/Global Wheat Detection Challenge/Data/clean_GWD .csv'
-TRAIN_INSTANCE_PATH     = 'D:/Machine Learning/Global Wheat Detection Challenge/Data/cleaned_train_instances.json'
+TRAIN_IMG_PATH          = 'Data\\train_images\\'
+TEST_IMG_PATH           = 'Data\\test_images\\'
+TRAIN_ANNOT_PATH        = 'Data/clean_GWD .csv'
+TRAIN_INSTANCE_PATH     = 'Data/cleaned_train_instances.json'
 NUM_CLASSES             = 1
 
 
