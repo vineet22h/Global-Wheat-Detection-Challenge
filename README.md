@@ -1,4 +1,4 @@
-# Global-Wheat-Detection-Challenge
+# Global-Wheat-Detection-Challenge CVPPA Workshop 2021 
 The Challenge deals with detection of wheat head given the image. The challenge was live on kaggle with the link https://www.kaggle.com/c/global-wheat-detection
 
 # Data link:
